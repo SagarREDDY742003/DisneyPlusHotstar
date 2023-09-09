@@ -248,7 +248,7 @@ body{
 .movie-tab:hover{
     animation: mm 30s infinite;
     z-index: 1;
-    border: 1.5px solid rgba(245, 245, 245, 0.846);
+    border: 1.5px solid rgba(4, 255, 0, 0.795);
     border-radius: 6px;
 }
 @keyframes mm{
