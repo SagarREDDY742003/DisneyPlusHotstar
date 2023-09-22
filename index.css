@@ -2,6 +2,7 @@
     width: 100vw;
     margin: 0;
     box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
     width: 100vw;
@@ -176,8 +177,7 @@ body{
     font-size: 22px;
     font-weight: 600;
     margin-left: 2%;
-    background-color: hsla(0, 0%, 83%, 0.1);
-   
+    background-color: hsla(0, 0%, 83%, 0.1); 
 }
 .plus:hover{
     background-color: hsla(0, 0%, 83%, 0.4);
@@ -237,6 +237,9 @@ body{
     white-space: nowrap;
     overflow-y:hidden;
 }
+.movie::-webkit-scrollbar {
+    display: none;
+  }
 .movie-tab{
     width: 190px;
     height: 250px;
@@ -248,7 +251,7 @@ body{
 .movie-tab:hover{
     animation: mm 30s infinite;
     z-index: 1;
-    border: 1.5px solid rgba(4, 255, 0, 0.795);
+    border: 2px solid peru;
     border-radius: 6px;
 }
 @keyframes mm{
@@ -280,19 +283,22 @@ body{
     position: absolute;
     transition: 0s;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.849);
+    bottom:0;
+    display: none;  
+}
+.movie-logo{
+    width:100%;
     height: auto;
-    bottom: 0;
-    display: none;
-    /* border: 1.5px solid rgba(245, 245, 245, 0.596); */
 }
 .btn-2{
     width: 90%;
     margin-left: 5%;
+    margin: 5px;
 }
 .watch-2{
     width: 75%;
-    background-color: rgba(240, 248, 255, 0.325);
+    background-color: rgba(240, 248, 255, 0.200);
     border: none;
     border-radius: 5px;
     height: 30px;
@@ -302,17 +308,17 @@ body{
 .plus-2{
     width: 20%;
     height: 30px;
-    background-color: rgba(240, 248, 255, 0.325);
+    background-color: rgba(240, 248, 255, 0.200);
     border: none;
     border-radius: 5px;
     font-weight: 600;
     color: aliceblue;
 }
 .watch-2:hover{
-    background-color: rgba(240, 248, 255, 0.517);
+    background-color: rgba(240, 248, 255, 0.317);
 }
 .plus-2:hover{
-    background-color: rgba(240, 248, 255, 0.517);
+    background-color: rgba(240, 248, 255, 0.317);
 }
 .mov-cont p{
     width: 100%;
@@ -323,6 +329,7 @@ body{
     font-size: 12px;
     color: rgb(255, 255, 255);
     font-weight: 600;
+    margin: 0;
 }
 .mov-desc{
     font-size: 12px;
@@ -339,3 +346,67 @@ body{
         margin-left:0px;
     } 
 } 
+
+
+.movie-language-type{
+    display: flex;
+    padding-top:38px;
+    width: 100%;
+    height:236px;
+    padding-left: 3%;
+    overflow-x:auto;
+    position: relative;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow-y:hidden;
+}
+.language-type{
+    width: 280px;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 0.8%;
+    /* border:2px solid yellow; */
+}
+.language-type img{
+    width: 280px;
+    height: 100%;
+    border-radius: 10px;
+}
+.language-type:hover{
+    scale: 1.12;
+    z-index: 5;
+}
+.movie-language-type::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .video-type{
+    display: flex;
+    padding-top:5px;
+    width: 100%;
+    height:200px;
+    padding-left: 3%;
+    overflow-x:auto;
+    position: relative;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow-y:hidden;
+  }
+  .type{
+    width: 244px;
+    height: 140px;
+    border-radius: 10px;
+    margin-left: 0.8%;
+  }
+  .type video{
+    width: 244px;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .type:hover{
+    scale: 1.2;
+  }
+  .video-type::-webkit-scrollbar {
+    display: none;
+  }
