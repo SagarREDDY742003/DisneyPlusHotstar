@@ -9,21 +9,31 @@ body{
     height: 100vh;
     background-color: #0f1014;
     overflow-x: hidden;
+    color:white;
+}
+.mylight{
+    background-color: azure;
+    color: #0f1014;
 }
 /*---------------nav bar--------------------------*/
 .navbar{
     width: 100px;
     height:100%;
-    background-color:#0f1014;
+    /* background-color:#0f1014; */
     position: fixed;
+    border-right: 4px solid rgb(0, 0, 0);
 }
 .logo{
     width: 100%;
     margin-top: 50px;
 }
 .logo img{
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
+    /* color: #0f1014; */
+    background-color: #0f1014;
+    border-radius: 5px;
+    padding: 4px;
 }
 .logo button{
     margin-left: 5%;
@@ -41,13 +51,12 @@ body{
 }
 .option i{
     width: 100%;
-    font-size: 18px;
-    color: rgb(185, 185, 185);
+    font-size: 20px;
+    /* color: rgb(185, 185, 185); */
     text-align: center;
     margin-top: 47px;
 }
 .option i:hover{
-    color: aliceblue;
     scale: 1.2;
 }
 @media only screen and (max-width:700px) {
@@ -61,6 +70,7 @@ body{
         width: 100%;
         height:80px;
         position: relative;
+        border-bottom: 4px solid rgb(0, 0, 0);
     }
     .logo{
         margin-top: 0px;
@@ -95,10 +105,10 @@ body{
 }
 /* ---------------------container---------------------------*/ 
 .container{
-    width:94.15% ;
+    width:94.15%;
     height: auto;
-    background-color:#0f1014;
-    margin-top: 5px;
+    /* background-color:#0f1014; */
+    /* margin-top: 5px; */
 }
 .hot-release{
     width: 100%;
@@ -106,6 +116,7 @@ body{
     width: 100%;
     height: 650px;
     margin-left: 100px;
+    padding: 10px;
 }
 .hi{ 
     width: 100%;
@@ -120,16 +131,19 @@ body{
     object-fit: cover;
     position:relative;
     filter:brightness(1.1);
-    -webkit-mask-image:linear-gradient( rgb(0, 0, 0), transparent);
-    mask-image: linear-gradient( rgb(0, 0, 0), transparent);
+    /* -webkit-mask-image:linear-gradient( rgb(0, 0, 1), transparent);
+    mask-image: linear-gradient( rgb(0, 0, 1), transparent); */
 }
 .movie-cont{
-    width: 400px;
+    width: 450px;
     height: 54%;
     position:absolute;
     margin-top: 190px;
     background-color: transparent ;
     margin-left: 3%;
+    background-color: #27231e75;
+    padding-left: 1%;
+    border-radius: 10px;
 }
 .movie-cont img{
     margin-left:2% ;
@@ -147,7 +161,7 @@ body{
 }
 .p2{
     font-size: 20px;
-    color: rgb(191, 191, 191);
+    color: rgb(220, 220, 220);
 }
 .p3{
     font-size: 22px;
@@ -163,8 +177,8 @@ body{
     height: 60px;
     border-radius: 10px;
     border: none;
-    background-color: hsla(0, 0%, 83%, 0.1);
-    color: aliceblue;
+    background-color: hsla(0, 0%, 83%, 0.300);
+    color: aliceblue; 
     font-size: 22px;
     font-weight: 600;
 }
@@ -177,14 +191,14 @@ body{
     font-size: 22px;
     font-weight: 600;
     margin-left: 2%;
-    background-color: hsla(0, 0%, 83%, 0.1); 
+    background-color: hsla(0, 0%, 83%, 0.300); 
 }
 .plus:hover{
-    background-color: hsla(0, 0%, 83%, 0.4);
+    background-color: hsla(0, 0%, 83%, 0.400);
     transform: scale(1.05);
 }
 .watch:hover{
-    background-color: hsla(0, 0%, 83%, 0.4);
+    background-color: hsla(0, 0%, 83%, 0.400);
     transform: scale(1.05);
 }
 @media only screen and (max-width:700px){
@@ -211,6 +225,7 @@ body{
     width: 100%;
     height: 1000px;
     margin-left: 100px;
+    margin-top: 100px;
 }
 .movie-type{
     width: 100%;
@@ -220,7 +235,7 @@ body{
     /* margin-top: 20px; */
     width: 100%;
     height: 31px;
-    color: aliceblue;
+    /* color: aliceblue; */
     background: transparent;
     font-size: 30px;
     /* padding-top: 5px; */
@@ -386,6 +401,8 @@ body{
     padding-top:5px;
     width: 100%;
     height:200px;
+    padding-top: 20px;
+    z-index: 1px;
     padding-left: 3%;
     overflow-x:auto;
     position: relative;
@@ -409,4 +426,29 @@ body{
   }
   .video-type::-webkit-scrollbar {
     display: none;
+  }
+
+  /* -----coupon------- */
+  #coupon{
+    height: 400px;
+    width: 70%;
+    background-color: rgb(42, 123, 123);
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 15%;
+    z-index: 10;
+    border-radius: 10px;
+    /* visibility: hidden; */
+    opacity:1;
+    background-image: url(./coupon/SultanofDelhiDated_deskXBB-7f2eb68a-1c1f-40da-b681-eb8bcc0dddbe.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #coupon button{
+    width: auto;
+    float: right;
+    font-size: 25px;
+    border: none;
+    border-radius: 0px 10px 0px 10px ;
+    z-index: 1;
   }
