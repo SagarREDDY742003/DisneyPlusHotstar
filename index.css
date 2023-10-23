@@ -25,7 +25,7 @@ body{
 }
 .logo{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .logo img{
     width: 60%;
@@ -47,7 +47,7 @@ body{
 }
 .option{
     width: 100%;
-    margin-top: 130px;
+    margin-top: 60px;
 }
 .option i{
     width: 100%;
@@ -74,7 +74,7 @@ body{
     }
     .logo{
         margin-top: 0px;
-        width: 25%;
+        width: 20%;
         height: 80px;
         float: right;
     }
@@ -136,12 +136,12 @@ body{
 }
 .movie-cont{
     width: 450px;
-    height: 54%;
+    height: 59%;
     position:absolute;
     margin-top: 190px;
     background-color: transparent ;
     margin-left: 3%;
-    background-color: #27231e75;
+    background-color: #27231ea1;
     padding-left: 1%;
     border-radius: 10px;
 }
@@ -211,7 +211,10 @@ body{
     }
     .movie-cont{
         margin-left: 2%;
-        width: 370px;
+        width: 320px;
+    }
+    .movie-cont p{
+        font-size: 18px;
     }
 }
 @media only screen and (max-width:800px) {
@@ -460,7 +463,7 @@ body{
     background-color: rgb(190, 201, 208);
     position: absolute;
     margin-top: 10%;
-    margin-left: 25%;
+    margin-left: 20%;
     z-index: 10;
     border-radius: 10px;
     visibility: hidden;
@@ -483,3 +486,13 @@ body{
     font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+
+  @media only screen and (max-width:600px) {
+    #weathercoupon{
+        width: 60%;
+        height: 140px;
+  }
+  #weathercoupon p{
+    font-size: 14px;
+  }
+}
