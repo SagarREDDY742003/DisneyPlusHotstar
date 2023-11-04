@@ -12,7 +12,7 @@ body{
     color:white;
 }
 .mylight{
-    background-color: azure;
+    background-color: rgb(245, 255, 255);
     color: #0f1014;
 }
 /*---------------nav bar--------------------------*/
@@ -52,9 +52,9 @@ body{
 .option i{
     width: 100%;
     font-size: 18px;
-    /* color: rgb(185, 185, 185); */
     text-align: center;
     margin-top: 40px;
+    color: rgb(0, 197, 197);
 }
 .option i:hover{
     scale: 1.2;
@@ -79,9 +79,9 @@ body{
         float: right;
     }
     .logo img{
-        margin-top: 10px;
-        height: 60px;
-        width: 70px;
+        margin-top: 15px;
+        height: 50px;
+        width: 60px;
     }
     .logo button{
         display: none;
@@ -114,7 +114,7 @@ body{
     width: 100%;
     display: flex;
     width: 100%;
-    height: 650px;
+    height: 560px;
     margin-left: 100px;
     padding: 10px;
 }
@@ -135,13 +135,14 @@ body{
     mask-image: linear-gradient( rgb(0, 0, 1), transparent); */
 }
 .movie-cont{
-    width: 450px;
-    height: 59%;
+    width: 430px;
+    height:fit-content;
+    padding-bottom: 10px;
     position:absolute;
-    margin-top: 190px;
+    margin-top: 130px;
     background-color: transparent ;
-    margin-left: 3%;
-    background-color: #27231ea1;
+    margin-left: 1%;
+    /* background-color: #27231ea1; */
     padding-left: 1%;
     border-radius: 10px;
 }
@@ -153,15 +154,16 @@ body{
     width: 100%;
     background: transparent;
     margin-top: 5%;
+    font-size: 18px;
 }
 .p1{
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     font:bold;
 }
 .p2{
     font-size: 20px;
-    color: rgb(220, 220, 220);
+    color: rgb(235, 235, 235);
 }
 .p3{
     font-size: 22px;
@@ -173,18 +175,19 @@ body{
     margin-top: 5%;
 }
 .watch{
-    width: 80%;
-    height: 60px;
+    width: 75%;
+    height: 55px;
     border-radius: 10px;
     border: none;
     background-color: hsla(0, 0%, 83%, 0.300);
     color: aliceblue; 
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
+    margin-left:2% ;
 }
 .plus{
     width: 15%;
-    height: 60px;
+    height: 55px;
     color: aliceblue;
     border-radius: 10px;
     border: none;
@@ -210,6 +213,7 @@ body{
         margin-left: 0px;
     }
     .movie-cont{
+        margin-top: 200px;
         margin-left: 2%;
         width: 320px;
     }
@@ -240,15 +244,15 @@ body{
     height: 31px;
     /* color: aliceblue; */
     background: transparent;
-    font-size: 30px;
+    font-size: 26px;
     /* padding-top: 5px; */
-    padding-left: 3%;
+    padding-left: 1.5%;
 }
 .movie{
     padding-top:38px;
     width: 100%;
     height:326px;
-    padding-left: 3%;
+    padding-left: 1%;
     overflow-x:auto;
     position: relative;
     box-sizing: border-box;
