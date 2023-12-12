@@ -53,4 +53,4 @@ function openpage(){
 }
  function closeweather(){
     document.getElementById('weathercoupon').style.visibility = 'hidden';
- }
+}

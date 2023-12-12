@@ -1,12 +1,12 @@
 //Page1
 
-# login
+# login page
 
-# Movies
+# on click list of Movies
 
-# Shows
+# on click list of Shows
 
-# sports
+# on click list of sports
 
 //page2
 
@@ -14,11 +14,11 @@
 
 //page3
 
-# details of movie
+# details of a movie
 
 //page4
 
-# watch list
+# details of movies added to watch list
 
 username:sagar
 

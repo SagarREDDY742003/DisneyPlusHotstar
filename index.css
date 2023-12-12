@@ -8,8 +8,9 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #0f1014;
-    overflow-x: hidden;
     color:white;
+    overflow-x: hidden;
+    
 }
 .mylight{
     background-color: rgb(245, 255, 255);
@@ -54,7 +55,7 @@ body{
     font-size: 18px;
     text-align: center;
     margin-top: 40px;
-    color: rgb(0, 197, 197);
+    color:rgb(156, 211, 211);
 }
 .option i:hover{
     scale: 1.2;
@@ -113,7 +114,6 @@ body{
 .hot-release{
     width: 100%;
     display: flex;
-    width: 100%;
     height: 560px;
     margin-left: 100px;
     padding: 10px;
@@ -500,3 +500,5 @@ body{
     font-size: 14px;
   }
 }
+
+/* --------------------description pack details----------------- */
